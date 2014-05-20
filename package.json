@@ -1,6 +1,6 @@
 {
   "name": "sheslime",
-  "version": "0.0.1",
+  "version": "0.1.0",
   "description": "sheslime merge two different json and output one strong json.",
   "main": "index.js",
   "scripts": {
