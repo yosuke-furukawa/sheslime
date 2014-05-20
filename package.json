@@ -1,0 +1,31 @@
+{
+  "name": "sheslime",
+  "version": "0.0.1",
+  "description": "sheslime merge two different json and output one strong json.",
+  "main": "index.js",
+  "scripts": {
+    "test": "node test.js"
+  },
+  "bin": {
+    "sheslime": "bin/cli.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/yosuke-furukawa/sheslime"
+  },
+  "keywords": [
+    "json",
+    "sheslime"
+  ],
+  "author": "yosuke-furukawa",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/yosuke-furukawa/sheslime/issues"
+  },
+  "homepage": "https://github.com/yosuke-furukawa/sheslime",
+  "dependencies": {
+    "optimist": "^0.6.1",
+    "semver": "^2.3.0",
+    "xtend": "^3.0.0"
+  }
+}
