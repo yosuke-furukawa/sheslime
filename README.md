@@ -1,4 +1,4 @@
-Sheslime
+Sheslime [![Build Status](https://travis-ci.org/yosuke-furukawa/sheslime.svg?branch=v0.1.0)](https://travis-ci.org/yosuke-furukawa/sheslime)
 ==============
 
 sheslime merge different jsons.
