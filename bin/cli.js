@@ -6,7 +6,6 @@ function showHelp() {
   console.log("Usage : sheslime package1.json package2.json");
 }
 
-console.log(process.argv);
 if (process.argv.length < 4) {
   showHelp();
 }
