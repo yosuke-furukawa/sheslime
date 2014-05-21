@@ -4,7 +4,7 @@
   "description": "sheslime merge two different json and output one strong json.",
   "main": "index.js",
   "scripts": {
-    "test": "node test.js"
+    "test": "node test/test.js && node test/test_cli.js"
   },
   "bin": {
     "sheslime": "bin/cli.js"
@@ -24,7 +24,6 @@
   },
   "homepage": "https://github.com/yosuke-furukawa/sheslime",
   "dependencies": {
-    "optimist": "^0.6.1",
     "semver": "^2.3.0",
     "xtend": "^3.0.0"
   }

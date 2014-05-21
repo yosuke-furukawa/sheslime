@@ -1,5 +1,5 @@
 var assert = require("assert");
-var sheslime = require("./index");
+var sheslime = require("../index");
 
 var packageJson1 = {
   "name": "json5x",

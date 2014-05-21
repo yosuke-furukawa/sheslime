@@ -1,18 +1,22 @@
 #!/usr/bin/env node
 var fs = require('fs');
 var sheslime = require('../index');
-var optimist = require('optimist');
 
-var argv = optimist
-  .usage("Usage : $0 package1.json package2.json")
-  .demand(2)
-  .argv;
+function showHelp() {
+  console.log("Usage : sheslime package1.json package2.json");
+}
 
-var json1 = argv._[0];
-var json2 = argv._[1];
+console.log(process.argv);
+if (process.argv.length < 4) {
+  showHelp();
+}
 
-json1 = fs.readFileSync(json1);
-json2 = fs.readFileSync(json2);
+var file1 = process.argv[2];
+var file2 = process.argv[3];
+
+var json1 = fs.readFileSync(file1);
+var json2 = fs.readFileSync(file2);
+
 
 json1 = JSON.parse(""+json1);
 json2 = JSON.parse(""+json2);
